@@ -33,7 +33,7 @@ namespace CiudadesApp
             ciudad.Poblacion = int.Parse(tbPoblacion.Text);
             ciudad.FechaFundacion = dtpFundacion.Value;
             lista.AgregarCiudad (ciudad);
-
+            llenarDataGrid();
         }
         private void llenarDataGrid()
         {
@@ -42,3 +42,4 @@ namespace CiudadesApp
         }
     }
 }
+
